@@ -1,18 +1,17 @@
 function prime(num){
     let factor=0;
     for(let i=1;i<=num;i++){
-        if(num%i){
-            counter++;
+        if(num%i==0){
+            factor++;
         }
-    }
-    if(factor!=2){
+    }if(factor===2){
         return true;
-    }
-    return false;
+    }return false;
 }
-let ans=prime(11);
-if(ans==true){
+let answer=prime(13);
+if(answer==true){
     console.log("prime");
-}else{
-    console.log("not prime");
 }
+else { console.log("Not prime");
+}
+
