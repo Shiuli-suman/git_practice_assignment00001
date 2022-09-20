@@ -12,4 +12,6 @@ let answer=prime(13);
 if(answer==true){
     console.log("prime");
 }
-else { console.log("Not prime");}
+else { console.log("Not prime");
+}
+
